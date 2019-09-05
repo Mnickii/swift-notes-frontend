@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="title"><h2 class="text">Swift Notes</h2></div>
+    <div class="name"><h2 class="text">Swift Notes</h2></div>
     <router-view/>
   </div>
 </template>
@@ -27,10 +27,7 @@ body {
   padding: 0;
   background-color: #b1abab;
 }
-.row {
-  flex-basis: 100%
-}
-.title {
+.name {
   flex-basis: 100%;
 }
 .text {

@@ -1,17 +1,13 @@
 /* eslint-disable no-alert */
 
 <template>
-<div>
   <div v-if="notes && notes.length > 0">
-    <div class="notes">
-      <note
+    <note
       v-for="note in notes"
       :key="note.id"
       :note="note"
-      />
-    </div>
+    />
   </div>
-</div>
 </template>
 
 <script>
