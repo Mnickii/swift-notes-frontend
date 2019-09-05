@@ -1,2 +1,2 @@
 # swift-notes-frontend
-Vue/Vues frontend for swift notes
+Vue/Vuex frontend for swift notes
